@@ -1,0 +1,10 @@
+@base_address = http://localhost:5223
+
+GET {{base_address}}/api/Calculator/add?a=5&b=3
+###
+GET {{base_address}}/api/Calculator/subtract?a=5&b=3
+###
+GET {{base_address}}/api/Calculator/multiply?a=1.5&b=2
+###
+GET {{base_address}}/api/Calculator/divide?a=5&b=0
+###
